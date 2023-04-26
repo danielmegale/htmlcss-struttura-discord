@@ -1,0 +1,76 @@
+body{
+    background-color: red;
+    margin: 0px;
+}
+.flex-header{
+    background-color:#ADD8E6;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    width: 100%;
+}
+.flex{
+    display: flex;
+}
+.d-flex{
+    min-height: 25px;
+    border: 2px dashed black;
+    background-color: orange;
+    width: 100%;
+}
+.c-flex{
+    min-width: 50%;
+    justify-content: center;
+    
+}
+.flex-item{
+    min-width: 25%;
+}
+.flex-80{
+    width: 80%;
+}
+.r-flex{
+    justify-content: flex-end;
+}  
+.blue{
+    background-color:#00008B;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.div-pink{
+    background-color:#EE82EE;
+    height: 80%;
+    width: 50%;
+    border:2px dashed black
+}
+.div-pink-main{
+    background-color:#FFC0CB;
+    height: 80%;
+    width: 40%;
+    border:2px dashed black
+}
+.div-blue{
+    background-color:#1E90FF;
+    height: 80%;
+    width: 60%;
+    border:2px dashed black
+}
+.container{
+    background-color: white;
+    justify-content: center;
+    height: 300px;
+}
+.card{
+    align-items: center;
+    height: 300px;
+    width: 80%;
+}
+.grey{
+    background-color: grey;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
